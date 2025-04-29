@@ -1,0 +1,175 @@
+.header {
+  background: linear-gradient(to bottom, #74ebd5);
+  width: 100%;
+}
+.header .conteiner-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 5%;
+}
+.conteiner-logo {
+  display: flex;
+  align-items: center;
+}
+
+.conteiner-logo img {
+  height: 100px;
+  width: 100px;
+}
+.conteiner-h1 {
+}
+.conteiner-h1 h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+.offcanvas-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offcanvas-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offcanvas-header ul {
+}
+.offcanvas-header ul li {
+  list-style: none;
+  margin: 0 1rem;
+  border: black;
+  margin-top: 33px;
+}
+.offcanvas-header ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.conteiner-search {
+}
+.conteiner-search ul {
+  display: none;
+}
+.conteiner-search ul li {
+}
+.conteiner-search ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.conteiner-search ul .inicio {
+}
+
+.conteiner-search ul .que-sublimamos {
+}
+
+.conteiner-search ul .porque-elegirnos {
+}
+
+.conteiner-search ul .galeria {
+}
+
+.conteiner-search ul .contacto {
+}
+.conteiner-menu-hamburguesa{
+
+}
+.conteiner-menu-hamburguesa button {
+  font-size: xx-large;
+  border: none;
+  border-radius: 5px;
+}
+
+.conteiner-menu-hamburguesa button:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    
+  }
+  .header .conteiner-header {
+   
+  }
+  .conteiner-logo {
+   
+  }
+
+  .conteiner-logo img {
+    
+  }
+  .conteiner-h1 {
+  }
+  .conteiner-h1 h1 {
+   
+  }
+  .offcanvas-header {
+   
+  }
+  .offcanvas-bottom {
+  }
+  .offcanvas-header ul {
+    
+  }
+  .offcanvas-header ul li {
+    
+  }
+  .offcanvas-header ul li a {
+    
+  }
+  .conteiner-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+  }
+  .conteiner-search ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+     margin: 0;
+  }
+  .conteiner-search ul li {
+  }
+  .conteiner-search ul li a {
+    border: solid 0.4px #333;
+    
+  }
+  .conteiner-search ul .inicio {
+  }
+
+  .conteiner-search ul .que-sublimamos {
+  }
+
+  .conteiner-search ul .porque-elegirnos {
+  }
+
+  .conteiner-search ul .galeria {
+  }
+
+  .conteiner-search ul .contacto {
+  }
+    .conteiner-menu-hamburguesa {
+        display: none;
+        
+    }
+
+  .conteiner-menu-hamburguesa button {
+  
+  }
+
+  .conteiner-menu-hamburguesa button:hover {
+   
+  }
+}

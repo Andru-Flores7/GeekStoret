@@ -1,0 +1,17 @@
+.hero-section {
+  background-color: #e7f2f7;
+}
+.hero-section a {
+  margin-bottom: 8%;
+}
+
+@media (min-width: 1024px) {
+  .hero-section {
+  }
+}
+.hero-section .conteiner {
+}
+.hero-section .row {
+  display: flex;
+  justify-content: center;
+}
